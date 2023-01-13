@@ -13,7 +13,7 @@ spec:
       timeoutSeconds: 1
       containers:
       - name: http-server
-        image: quay.io/uirlis/helloworld-rust-wasi:v1.0.0
+        image:  quay.io/uirlis/helloworld-rust-wasi@sha256:461a8137c024457640dbd67271a19644747db244f09553ede48f8a073017c2eb
         ports:
         - containerPort: 8080
           protocol: TCP
